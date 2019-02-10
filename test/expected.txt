@@ -29,6 +29,9 @@
 || Example: help
 || exit: Exits the program.
 || Example: exit
+|| multideleteDeletes all persons identified by the index numbers used in the last find/list call.
+|| Parameters: INDICES
+|| Example: multidelete 2 4 5
 || ===================================================
 || Enter command: || [Command entered:  delete 1]
 || The person index provided is invalid
@@ -289,6 +292,13 @@
 || 	2. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
 || 
 || 2 persons listed!
+|| ===================================================
+|| Enter command: || [Command entered:  clear]
+|| Address book has been cleared!
+|| ===================================================
+|| Enter command: || [Command entered:  list]
+|| 
+|| 0 persons listed!
 || ===================================================
 || Enter command: || [Command entered:  clear]
 || Address book has been cleared!
